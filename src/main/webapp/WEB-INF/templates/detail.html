@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <h2 th:text="${book.name}"></h2>
+  <p>Tác giả: <span th:text="${book.author}"></span></p>
+  <p>Giá: <span th:text="${book.price}"></span></p>
+
+  <a th:href="@{/books}">Quay lại</a>
+</body>
+</html>
